@@ -6,11 +6,11 @@ This is a simple personal project that allows you to upload a PDF file and gener
 
 ## 🛠️ Tech Stack
 
-- Python 3.10+
+- Python 3.12+
 - Streamlit (UI)
 - PyMuPDF (PDF text extraction)
 - Ollama (to run LLM locally)
-- LLaMA 3 (7B model)
+- LLaMA 3.2 (7B model)
 
 ---
 
@@ -25,7 +25,7 @@ pip install streamlit pymupdf
 ### 2. Pull the LLaMA 3 model
 
 ```bash
-ollama pull llama3
+ollama pull llama3.2
 ```
 
 ### 3. Run the app
